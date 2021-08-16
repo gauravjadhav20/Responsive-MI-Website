@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(18, 18, 211);
+    height: 15px;
+    position: fixed;
+    width: 88%;
+        
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position:relative;
+}
+
+.nav-links ul li a{
+    color: rgb(217, 226, 236);
+    text-decoration: none;
+    font-size: 9px;
+}
+.nav-links ul li::after{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display:block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li:nth-child(2):after{
+    content:"";
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+    display:block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.logo{
+    height: 42px;
+    width: 70px;
+    margin-left: 15px;
+    position: absolute;
+
+}
+
+@media(max-width:600px){
+    .logo{
+        height: 35px;
+        margin-left: 5px;
+    
+    }
+
+
+    
+
+
+
+
+
+
+.match_date{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(38, 67, 156);
+    padding-top: 11px;
+}
+.match_date h2{
+    text-align: center;
+    color: seashell;
+}
+.teams{
+    margin-left: 43%;
+}
+.mainH{
+    text-align-last: center;
+    font-size: 40px;
+    color: rgb(189, 43, 23);
+    text-shadow: 0 2px 0 rgba(31, 30, 30, 0.871);
+}
+.content{
+    background-color: rgb(229, 248, 247);
+}
+
+
+
+
+
+
+
+
+
+.footer h2 {
+    text-align: center;
+    color: hsl(270, 44%, 62%);
+    text-shadow: 1px 1px 0px black;
+}
+.main-f{width: 30%;
+    display: flex;
+    margin: auto;
+}
+.footer1{
+    display: flex;
+    margin: 0% 28%;
+}
+.footer2{
+    display: flex;
+    margin: 0% 33%;
+}
+.f2 , .f1 {
+    width: 100px;
+    margin: 10px;
+}
+.f0 {
+    width: 130px;
+    margin: 10px;
+}
+
+@media(max-width:600px){
+    
+    .footer2{
+        margin-left: 15px;
+        display: flex;
+    }
+    .f1 {
+        width: 65px;
+        margin: 10px;
+    }
+    .f0 {
+        width: 70px;
+        margin: 10px;
+    }
+    .f2{
+        width: 85px;
+    }
+}
+
+
+.end{
+    background-color: rgba(4, 4, 158, 0.966);
+    width: 100%;
+    height: 320px;
+}
+.endlogo{
+    float: left;
+    margin: 6%;
+    width: 150px;
+}
+.end-content {
+    color: cornsilk;
+    text-align: center;
+}
+.social-media{
+    width: 3%;
+    float: right;
+    margin-right: 40%;
+    margin-top: 3%;
+    border:  2px  solid  rgb(247, 8, 8);
+    border-radius: 10px;
+}
+@media(max-width:600px){
+    .social-media{
+        width: 10%;
+        float: right;
+        margin-right: 40%;    }
+}
+}

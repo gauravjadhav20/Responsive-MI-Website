@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket Website</title>
+    <link rel="stylesheet" href="cricket.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav>
+        <img class="logo" src="img/logo1.jpg" alt="" />
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="matches.html">MATCHES</a></li>
+            <li><a href="squad.html">SQUAD</a></li>
+            <li><a href="stats.html">PLAYER STATS</a></li>
+            <li><a href="search.html">SEARCH</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="img-content">
+        <h1>MUMBAI INDIANS</h1>
+        <p>
+          The Mumbai Indians are a franchise cricket team based in Mumbai,
+          Maharashtra, that competes in the Indian Premier League. Founded in
+          2008, the team is owned by India's biggest conglomerate, Reliance
+          Industries, through its 100% subsidiary IndiaWin Sports. Since its
+          establishment, the team has played its home matches in the
+          33,108-capacity Wankhede Stadium in Mumbai.
+        </p>
+        <p>
+          <b class="info">Owner</b>: Reliance Industries Limited <br />
+          <b class="info">Captain</b>: Rohit Sharma <br />
+          <b class="info">Founded</b>: 2008 <br />
+          <b class="info">Owners</b>: Mukesh Ambani, Nita Ambani, Reliance
+          Industries Limited <br />
+          <b class="info">Coaches</b>: Mahela Jayawardene (Head coach), Shane
+          Bond (Bowling coach) <br />
+        </p>
+        <a
+          href="https://www.mumbaiindians.com/"
+          class="hero-btn"
+          target="_blank"
+          >Click here To Know More</a
+        >
+      </div>
+    </header>
+    <br /><br /><br />
+
+    <footer class="footer">
+      <h2>PRINCIPAL PARTNERS</h2>
+      <div class="main-f">
+        <img class="f0" src="img/f1.png" alt="" />
+        <img class="f0" src="img/f2.png" alt="" />
+      </div>
+      <hr />
+      <h2>ASSOCIATE PARTNERS</h2>
+      <div class="footer1">
+        <img class="f1" src="img/f3.jpg" alt="" />
+        <img class="f1" src="img/f4.jpg" alt="" />
+        <img class="f1" src="img/f5.png" alt="" />
+      </div>
+      <hr />
+      <h2>OFFICIAL PARTNERS</h2>
+      <div class="footer2">
+        <img class="f2" src="img/f11.png" alt="" />
+        <img class="f2" src="img/f12.png" alt="" />
+        <img class="f2" src="img/f13.png" alt="" />
+        <img class="f2" src="img/f14.png" alt="" />
+      </div>
+      <div class="footer2">
+        <img class="f2" src="img/f15.png" alt="" />
+        <img class="f2" src="img/f16.png" alt="" />
+        <img class="f2" src="img/f17.png" alt="" />
+        <img class="f2" src="img/f18.png" alt="" />
+      </div>
+      <hr />
+
+      <div class="end">
+        <img class="endlogo" src="img/logo1.jpg" alt="" />
+        <h2 class="end-content">Follow us on</h2>
+        <a href="https://www.facebook.com/mumbaiindians/" target="_blank"><img class="social-media" src="img/fbmain.png" alt=""> </a>
+        <a href="https://www.instagram.com/mumbaiindians/?hl=en" target="_blank"><img class="social-media" src="img/insta.jpg" alt=""></a>
+        <a href="https://twitter.com/mipaltan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img class="social-media" src="img/twt.jpg" alt=""></a>
+      </div>
+    </footer>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.left = "0";
+      }
+      function hideMenu() {
+        navLinks.style.left = "-200px";
+      }
+    </script>
+  </body>
+</html>
