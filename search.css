@@ -206,7 +206,7 @@ color: rgb(7, 35, 87);}
         margin: 10px;
     }
     .f2{
-        width: 85px;
+        width: 75px;
     }
 }
 
@@ -215,7 +215,7 @@ color: rgb(7, 35, 87);}
 .end{
     background-color: rgba(4, 4, 158, 0.966);
     width: 100%;
-    height: 320px;
+    height: 380px;
 }
 .endlogo{
     float: left;
