@@ -215,13 +215,17 @@ color: rgb(7, 35, 87);}
 .end{
     background-color: rgba(4, 4, 158, 0.966);
     width: 100%;
-    height: 380px;
+    height: 360px;
 }
 .endlogo{
     float: left;
     margin: 6%;
     width: 150px;
 }
+@media(max-width:600px){
+    .endlogo{
+        width: 100px;
+    }
 .end-content {
     color: cornsilk;
     text-align: center;

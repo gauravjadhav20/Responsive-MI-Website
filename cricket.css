@@ -214,7 +214,7 @@ nav{
 .end{
     background-color: rgb(17, 17, 172);
     width: 100%;
-    height: 380px;
+    height: 360px;
 }
 .endlogo{
     float: left;
@@ -222,6 +222,10 @@ nav{
     width: 150px;
     border-radius: 3px;
 }
+@media(max-width:600px){
+    .endlogo{
+        width: 100px;
+    }
 .end-content {
     color: cornsilk;
     text-align: center;
